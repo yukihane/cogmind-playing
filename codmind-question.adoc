@@ -1,0 +1,7 @@
+:imagesdir: ./img
+
+= プレイ時疑問に思ったことリスト
+
+== アイテムのステータスの見方がわからない
+
+image::{imagesdir}/parts-list.png[]
