@@ -4,4 +4,22 @@
 
 == アイテムのステータスの見方がわからない
 
-image::{imagesdir}/parts-list.png[]
+例えば下の図で `SCAN` にある `1`, `T120`, `S10` はそれぞれ何を表すのか。
+
+image::parts-list.png[]
+
+そのパーツの主要なステータスを表示しているっぽい。
+(パーツの種類ごとに表示されるステータスは異なるようだ)
+
+例えばPropulsionの場合は、左から、
+レーティング、移動速度(**T**ime/Move)、積載可能重量(Mass **S**upport)の値。
+どのパーツも左の数値はレーティングだろう。残りの2つをまとめてみる。
+
+|===
+|種別|中央値|右値
+
+|Power|M: 重量(**M**ass) |E:攻撃力?(Energy, Matter, Heat の値)
+|Propulsion|T: 移動速度(**T**ime/Move)|S: 積載可能重量(Mass **S**upport)
+|Utility|M: 重量(**M**ass)|効果？
+|Weapon|M: 重量(**M**ass)|ダメージとダメージ種別
+|===
